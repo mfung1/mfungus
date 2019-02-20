@@ -1,7 +1,7 @@
 /* global graphql */
 
 import React from 'react';
-import Skills from '../components/about/about';
+import Skills from '../components/skills/skills';
 import Blog from '../components/Blog-Post/blog-posts';
 import HowTo from '../components/how-to';
 
