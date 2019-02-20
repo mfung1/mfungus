@@ -12,8 +12,34 @@
         }
     }
 
-    &_exp,
+    // &_hero {
+    //     display: flex;
+    //     align-items: center;
+    //     flex-direction: column-reverse;
+
+    //     @include breakpoint(tablet) {
+    //         flex-direction: row;
+    //     }
+    // }
+
+    // &_img {
+    //    background-size: contain;
+    //    background-repeat: no-repeat;
+    //    padding-bottom: 53.218%;
+    //    flex: 1 0 50%;
+    //    width: 100%;
+
+    //    @include breakpoint(tablet) {
+    //        padding-bottom: 23.218%;
+    //    }
+    // }
+
     &_strp {
-        max-width: 600px;
+        max-width: 37.5rem;
+        padding: 24px 12px;
+
+        @include breakpoint(tablet) {
+            padding: 0;
+        }
     }
 }

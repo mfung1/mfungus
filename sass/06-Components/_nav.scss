@@ -5,6 +5,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 24px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
   }
 
   &_item {
@@ -16,16 +19,17 @@
     font-size: 1.5rem;
     line-height: 28px;
     display: inline-block;
+    padding-top: 5px;
     &:after {
       content: '';
       padding-top: 4px;
-      border-bottom: 1px solid transparent;
+      border-bottom: 2px solid transparent;
       display: block;
       transition: border-bottom .3s ease;
     }
 
     &:hover:after {
-        border-bottom: 1px solid $white;
+        border-bottom: 2px solid $black;
         transition: border-bottom .3s ease;
     }
   }

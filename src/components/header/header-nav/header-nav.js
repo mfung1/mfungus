@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Logo from '../../icon/Logo/logo.js';
+import Logo from '../../svgs/Logo/logo.js';
 class HeaderNav extends React.Component {
   constructor () {
     super();
@@ -13,7 +13,7 @@ class HeaderNav extends React.Component {
   }
 
   addFade () {
-    this.setState({classList: "mf-wrp mb-52 fade-up"});
+    this.setState({classList: "mf-wrp mb-104 fade-up"});
   }
 
   render () {
