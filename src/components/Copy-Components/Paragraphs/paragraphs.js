@@ -12,7 +12,7 @@ const Paragraph = (props) => {
   const TheParagraph = Paras[props.level || 't1'];
   
   return (
-    <TheParagraph colour={props.colour} level={props.level} text={props.text} spacing={props.marginBottom}/> 
+    <TheParagraph colour={props.colour} level={props.level} text={props.text} spacing={props.spacing}/> 
   )
 }
 

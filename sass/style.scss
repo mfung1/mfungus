@@ -4,7 +4,7 @@
         './01-Settings/typography';
 
 // 02-Tools
-// @import './02-Tools/breakpoint.scss',
+@import './02-Tools/breakpoint.scss';
 //         './02-Tools/line-height-calc.scss',
 //         './02-Tools/px-to-rem.scss',
         // './02-Tools/spacing-calc.scss',
@@ -20,13 +20,13 @@
 //         './04-Elements/form-resets.scss';
 
 // 05-Objects
-// @import './05-Objects/page-wrapper.scss',
+@import './05-Objects/wrapper';
 //         './05-Objects/flex-group.scss',
 //         './05-Objects/transforms.scss';
 
 // 06-Components
-@import './06-Components/header';
-//         // './06-Components/roundel.scss',
+@import './06-Components/header',
+        './06-Components/blogPosts.scss';
 //         './06-Components/promo-pairing.scss',
 //         './06-Components/divider.scss',
 //         './06-Components/svg.scss',

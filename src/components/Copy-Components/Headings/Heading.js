@@ -14,7 +14,7 @@ const Heading = (props) => {
   const TheHeading = Headings[props.level || 'h1'];
   
   return (
-    <TheHeading colour={props.colour} level={props.level} text={props.text} spacing={props.marginBottom}/> 
+    <TheHeading colour={props.colour} level={props.level} text={props.text} spacing={props.spacing}/> 
   )
 }
 

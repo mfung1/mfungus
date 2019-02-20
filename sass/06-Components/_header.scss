@@ -1,9 +1,20 @@
 .mf-header {
     background-color: $navy;
-    padding: 24px 12px;
+    padding: 24px 0;
 
     &_logo {
         max-width: 119.5px;
         margin: 0 auto;
+        transition: max-width 1.2s ease;
+
+        @include breakpoint(tablet) {
+            max-width: 1080px;
+            transition: max-width 1.2s ease;
+        }
+    }
+
+    &_exp,
+    &_strp {
+        max-width: 600px;
     }
 }

@@ -1,0 +1,50 @@
+.mf-posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+
+    @include breakpoint (mobile) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include breakpoint (tablet) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mf-h2 {
+        margin: 52px auto 32px 0;
+    }
+}
+
+.mf-post {
+    text-decoration: none;
+    color: $black;
+    overflow: hidden;
+    &:hover,
+    &:focus {
+        .mf-post_img {
+            filter: grayscale(0%);
+            transition: filter .6s ease;
+        }
+    }
+    &_img {
+        padding-bottom: 77.78%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+        
+        transition: filter .3s ease;
+    }
+    &_cpy {
+        padding: 12px;
+    }
+    &_cpy-grn {
+        background-color: $green;
+    }
+    &_cpy-pnk {
+        background-color: $red;
+    }
+    &_cpy-blk {
+        background-color: $black;
+    }
+}
