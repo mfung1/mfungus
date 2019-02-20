@@ -1,0 +1,30 @@
+@keyframes fadeUp {
+  0% {
+    margin-top: 25px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    padding-left: 50px;
+    opacity: 0;
+  }
+
+  100% {
+    padding-left: 12px;
+    opacity: 1;
+  }
+}
+
+.fade-up {
+  animation: fadeUp .6s linear 1;
+}
+
+.fade-left {
+  animation: fadeLeft .6s linear 1;
+}

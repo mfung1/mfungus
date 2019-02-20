@@ -20,13 +20,15 @@
 //         './04-Elements/form-resets.scss';
 
 // 05-Objects
-@import './05-Objects/wrapper';
+@import './05-Objects/wrapper',
+       './05-Objects/transition-in';
 //         './05-Objects/flex-group.scss',
 //         './05-Objects/transforms.scss';
 
 // 06-Components
 @import './06-Components/header',
-        './06-Components/blogPosts.scss';
+        './06-Components/blogPosts',
+        './06-Components/nav';
 //         './06-Components/promo-pairing.scss',
 //         './06-Components/divider.scss',
 //         './06-Components/svg.scss',

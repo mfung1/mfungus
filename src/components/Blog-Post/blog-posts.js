@@ -8,7 +8,7 @@ class BlogPosts extends Component {
   constructor () {
     super();
     this.state = {
-      count: 9,
+      classList: "mf-wrp mb-36",
       content: [
         {
           id: 1,
@@ -38,12 +38,13 @@ class BlogPosts extends Component {
   componentDidMount() {
     initial({dataAttr: "data-matchheights", gridItemClass: "mf-post"});
     matchHeights();
+    this.setState({classList: "mf-wrp mb-36 fade-up"});
   }
 
 
   render () {
     return (
-      <section className="mf-wrp mb-36">
+      <section className={this.state.classList}>
         <Heading level="h2" text="Blog" spacing="24" colour="blk"/>
         <div className="mf-posts">
           {this.state.content.map( (post) => {

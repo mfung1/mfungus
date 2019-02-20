@@ -1,0 +1,32 @@
+.mf-nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  &_cnt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+  }
+
+  &_item {
+    color: $white;
+    list-style: none;
+    text-align: center;
+  }
+  &_lnk {
+    font-size: 1.5rem;
+    line-height: 28px;
+    display: inline-block;
+    &:after {
+      content: '';
+      padding-top: 4px;
+      border-bottom: 1px solid transparent;
+      display: block;
+      transition: border-bottom .3s ease;
+    }
+
+    &:hover:after {
+        border-bottom: 1px solid $white;
+        transition: border-bottom .3s ease;
+    }
+  }
+}
