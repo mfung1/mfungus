@@ -14,6 +14,22 @@
     color: $white;
     list-style: none;
     text-align: center;
+    &:nth-child(1) .mf-nav_lnk:hover:after {
+      border-bottom: 2px solid $mustard;
+      transition: border-bottom .3s ease;
+    }
+    &:nth-child(2) .mf-nav_lnk:hover:after {
+      border-bottom: 2px solid $pink;
+      transition: border-bottom .3s ease;
+    }
+    &:nth-child(3) .mf-nav_lnk:hover:after {
+      border-bottom: 2px solid $green;
+      transition: border-bottom .3s ease;
+    }
+    &:nth-child(4) .mf-nav_lnk:hover:after {
+      border-bottom: 2px solid $red;
+      transition: border-bottom .3s ease;
+    }
   }
   &_lnk {
     font-size: 1.5rem;
@@ -28,9 +44,6 @@
       transition: border-bottom .3s ease;
     }
 
-    &:hover:after {
-        border-bottom: 2px solid $black;
-        transition: border-bottom .3s ease;
-    }
+    
   }
 }

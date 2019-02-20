@@ -8,7 +8,31 @@
   &-pnk {
     color: $pink;
   }
+  &-red {
+    color: $red;
+  }
   &-blk {
     color: $black;
+  }
+}
+
+.bg {
+  &-wht {
+    background-color: $white;
+  }
+  &-yllw {
+    background-color: $mustard;
+  }
+  &-grn {
+    background-color: $green;
+  }
+  &-pnk {
+    background-color: $pink;
+  }
+  &-red {
+    background-color: $red;
+  }
+  &-blk {
+    background-color: $black;
   }
 }

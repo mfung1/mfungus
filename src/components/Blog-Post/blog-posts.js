@@ -8,7 +8,7 @@ class BlogPosts extends Component {
   constructor () {
     super();
     this.state = {
-      classList: "mf-wrp mb-36",
+      classList: "mf-wrp mb-36 pt-52",
       content: [
         {
           id: 1,
@@ -38,7 +38,7 @@ class BlogPosts extends Component {
   componentDidMount() {
     initial({dataAttr: "data-matchheights", gridItemClass: "mf-post"});
     matchHeights();
-    this.setState({classList: "mf-wrp mb-36 fade-up"});
+    this.setState({classList: "mf-wrp mb-36 pt-52 fade-up"});
   }
 
 

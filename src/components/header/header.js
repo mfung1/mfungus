@@ -4,7 +4,7 @@ import HeaderContent from './header-content/header-content';
 import image from '../../../assets/image.png';
 
 const Header = () => (
-  <header className="mf-header mb-52">
+  <header className="mf-header">
     <HeaderNav/>
     <HeaderContent/>
   </header>
