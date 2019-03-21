@@ -24,16 +24,16 @@ class HeaderNav extends React.Component {
           <Logo/>
             <ul className="mf-nav_cnt">
               <li className="mf-nav_item">
-                <a href="#features" className="mf-nav_lnk col-wht">About</a>
+                <a href="#features" className="mf-nav_lnk col-blk">About</a>
               </li>
               <li className="mf-nav_item">
-                <a href="#howto" className="mf-nav_lnk col-wht">Portfolio</a>
+                <a href="#howto" className="mf-nav_lnk col-blk">Portfolio</a>
               </li>
               <li className="mf-nav_item">
-                <a href="#features" className="mf-nav_lnk col-wht">Blog</a>
+                <a href="#features" className="mf-nav_lnk col-blk">Blog</a>
               </li>
               <li className="mf-nav_item">
-                <a href="#howto" className="mf-nav_lnk col-wht">Contact</a>
+                <a href="#howto" className="mf-nav_lnk col-blk">Contact</a>
               </li>
             </ul>
           </nav>

@@ -1,0 +1,38 @@
+.mf-billboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 48px;
+  align-items: center;
+
+  &_cpy {
+    padding: 24px;
+
+    &.bg-red {
+      box-shadow: 4px 4px 0 2px darken($red, 15%);
+    }
+
+    &.bg-yllw {
+      box-shadow: -4px 4px 0 2px darken($mustard, 15%);
+    }
+
+    &.bg-grn {
+      box-shadow: -4px 4px 0 2px darken($green, 15%);
+    }
+  }
+
+  &-rvrs {
+    grid-template-columns: 2fr 1fr;
+
+    .mf-billboard_img {
+      background-position-x: left;
+    }
+  }
+
+  &_img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-bottom: 58.26%;
+  }
+
+}
